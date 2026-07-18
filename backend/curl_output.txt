@@ -1,0 +1,28 @@
+Note: Unnecessary use of -X or --request, POST is already inferred.
+* Host localhost:8000 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:8000...
+*   Trying 127.0.0.1:8000...
+* Established connection to localhost (127.0.0.1 port 8000) from 127.0.0.1 port 43985 
+* using HTTP/1.x
+> POST /api/generate/quiz HTTP/1.1
+> Host: localhost:8000
+> User-Agent: curl/8.16.0
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 17
+> 
+} [17 bytes data]
+* upload completely sent off: 17 bytes
+< HTTP/1.1 500 Internal Server Error
+< date: Sun, 12 Jul 2026 15:50:18 GMT
+< server: uvicorn
+< content-length: 21
+< content-type: text/plain; charset=utf-8
+< 
+{ [21 bytes data]
+100    38  100    21  100    17     90     72 --:--:-- --:--:-- --:--:--   163
+* Connection #0 to host localhost:8000 left intact

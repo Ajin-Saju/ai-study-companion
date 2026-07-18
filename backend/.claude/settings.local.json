@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netstat -ano)",
+      "Bash(findstr :8001)",
+      "Bash(taskkill *)",
+      "Bash(cmd /c \"taskkill /FI \\\\\"PORT eq 8000\\\\\" /F\")",
+      "Bash(exit *)"
+    ]
+  }
+}

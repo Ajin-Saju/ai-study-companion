@@ -1,0 +1,6 @@
+backend/.env
+frontend/.env.local
+**/node_modules
+**/venv
+**/__pycache__
+*.db

@@ -1,0 +1,10 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    18    0     0  100    18      0     17  0:00:01  0:00:01 --:--:--    17HTTP/1.1 200 OK
+date: Sun, 12 Jul 2026 13:37:01 GMT
+server: uvicorn
+content-type: text/event-stream; charset=utf-8
+transfer-encoding: chunked
+
+
+curl: (18) transfer closed with outstanding read data remaining

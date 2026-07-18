@@ -1,0 +1,113 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+⨯ Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+    at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+    at new Promise (<anonymous>) {
+  code: 'EADDRINUSE',
+  errno: -4091 GET / 200 in 250ms (next.js: 152ms, application-code: 98ms)
+ GET /dashboard 200 in 298ms (next.js: 88ms, application-code: 210ms)
+ GET /study/2 200 in 107ms (next.js: 50ms, application-code: 57ms)
+[browser] ⨯ unhandledRejection: TypeError: network error
+TypeError: network error
+ GET /study/2 200 in 129ms (next.js: 35ms, application-code: 94ms)
+[browser] ⨯ unhandledRejection: TypeError: network error
+TypeError: network error
+[browser] ⨯ unhandledRejection: TypeError: Failed to fetch
+    at generateContent (lib/api.ts:26:21)
+    at runTab (app/study/[documentId]/page.tsx:39:42)
+    at onClick (app/study/[documentId]/page.tsx:51:30)
+  24 |   section?: string
+  25 | ) {
+> 26 |   const res = await fetch(`${API_URL}/api/generate/${kind}`, {
+     |                     ^
+  27 |     method: "POST",
+  28 |     headers: { "Content-Type": "application/json" },
+  29 |     body: JSON.stringify({ document_id: documentId, section }),
+ GET / 200 in 118ms (next.js: 13ms, application-code: 105ms)
+ GET /dashboard 200 in 88ms (next.js: 16ms, application-code: 72ms)
+ GET /study/2 200 in 94ms (next.js: 28ms, application-code: 66ms)
+[browser] ⨯ unhandledRejection: TypeError: Failed to fetch
+    at generateContent (lib/api.ts:26:21)
+    at runTab (app/study/[documentId]/page.tsx:33:36)
+    at onClick (app/study/[documentId]/page.tsx:51:30)
+  24 |   section?: string
+  25 | ) {
+> 26 |   const res = await fetch(`${API_URL}/api/generate/${kind}`, {
+     |                     ^
+  27 |     method: "POST",
+  28 |     headers: { "Content-Type": "application/json" },
+  29 |     body: JSON.stringify({ document_id: documentId, section }),
+
+Could not open page.tsx in the editor.
+
+When running on Windows, file names are checked against an access list to protect against remote code execution attacks. File names may consist only of alphanumeric characters (all languages), periods, dashes, slashes, and underscores.
+
+
+Could not open page.tsx in the editor.
+
+When running on Windows, file names are checked against an access list to protect against remote code execution attacks. File names may consist only of alphanumeric characters (all languages), periods, dashes, slashes, and underscores.
+
+
+Could not open page.tsx in the editor.
+
+When running on Windows, file names are checked against an access list to protect against remote code execution attacks. File names may consist only of alphanumeric characters (all languages), periods, dashes, slashes, and underscores.
+
+
+Could not open page.tsx in the editor.
+
+When running on Windows, file names are checked against an access list to protect against remote code execution attacks. File names may consist only of alphanumeric characters (all languages), periods, dashes, slashes, and underscores.
+
+
+Could not open page.tsx in the editor.
+
+When running on Windows, file names are checked against an access list to protect against remote code execution attacks. File names may consist only of alphanumeric characters (all languages), periods, dashes, slashes, and underscores.
+
+
+Could not open page.tsx in the editor.
+
+When running on Windows, file names are checked against an access list to protect against remote code execution attacks. File names may consist only of alphanumeric characters (all languages), periods, dashes, slashes, and underscores.
+
+
+Could not open page.tsx in the editor.
+
+When running on Windows, file names are checked against an access list to protect against remote code execution attacks. File names may consist only of alphanumeric characters (all languages), periods, dashes, slashes, and underscores.
+
+ GET / 200 in 85ms (next.js: 17ms, application-code: 67ms)
+ GET /dashboard 200 in 71ms (next.js: 11ms, application-code: 60ms)
+ GET /study/2 200 in 95ms (next.js: 38ms, application-code: 57ms)
+[browser] ⨯ unhandledRejection: TypeError: Failed to fetch
+    at generateContent (lib/api.ts:26:21)
+    at runTab (app/study/[documentId]/page.tsx:33:36)
+    at onClick (app/study/[documentId]/page.tsx:51:30)
+  24 |   section?: string
+  25 | ) {
+> 26 |   const res = await fetch(`${API_URL}/api/generate/${kind}`, {
+     |                     ^
+  27 |     method: "POST",
+  28 |     headers: { "Content-Type": "application/json" },
+  29 |     body: JSON.stringify({ document_id: documentId, section }),
+
+[32332:0712/195641.048:ERROR:electron\shell\common\node_bindings.cc:507] Most NODE_OPTIONs are not supported in packaged apps. See documentation for more details.
+[32332:0712/195641.048:ERROR:electron\shell\common\node_bindings.cc:507] Most NODE_OPTIONs are not supported in packaged apps. See documentation for more details.
+
+[26068:0712/195641.967:ERROR:electron\shell\common\node_bindings.cc:507] Most NODE_OPTIONs are not supported in packaged apps. See documentation for more details.
+[26068:0712/195641.967:ERROR:electron\shell\common\node_bindings.cc:507] Most NODE_OPTIONs are not supported in packaged apps. See documentation for more details.
+ GET /study/2 200 in 92ms (next.js: 30ms, application-code: 62ms)
+[browser] ⨯ unhandledRejection: TypeError: network error
+TypeError: network error
+[browser] ⨯ unhandledRejection: TypeError: Failed to fetch
+    at generateContent (lib/api.ts:26:21)
+    at runTab (app/study/[documentId]/page.tsx:33:36)
+    at onClick (app/study/[documentId]/page.tsx:51:30)
+  24 |   section?: string
+  25 | ) {
+> 26 |   const res = await fetch(`${API_URL}/api/generate/${kind}`, {
+     |                     ^
+  27 |     method: "POST",
+  28 |     headers: { "Content-Type": "application/json" },
+  29 |     body: JSON.stringify({ document_id: documentId, section }),
+ GET / 200 in 113ms (next.js: 15ms, application-code: 98ms)
+[?25h

@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  /* Base */
+  --color-bg: #FFFBF5;
+  --color-surface: #FFFFFF;
+  --color-text: #211F36;
+  --color-muted: #6B647F;
+  --color-border: #EDE9F7;
+
+  /* Vibrant palette */
+  --color-primary: #7C3AED;      /* vivid violet — primary actions, active states */
+  --color-primary-dark: #6D28D9;
+  --color-secondary: #FF6B4A;    /* coral — hover, secondary CTAs */
+  --color-tertiary: #FFC145;     /* sunny yellow — highlights, badges */
+  --color-success: #22C55E;
+  --color-pink: #EC4899;
+  --color-cyan: #06B6D4;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
